@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!-- <h3>The current date is <span id="date"></span></h3>
+
+	<button type="button" onclick= "goback()">Go back</button>
+	<button type="button" onclick= "goforward()">Go forward</button>
+	<button type="button" onclick= "viewlength()">View length</button>
+ -->
+
+	<table>
+		<tr>
+			<th id="first"></th>
+			<th id="last"></th>
+			<th id="phone"></th>
+			<th id="email"></th>
+			<th id="age"></th>
+		</tr>
+
+		<tr>
+			<td id="ben"></td>
+			<td id="ten"></td>
+			<td id="b1"></td>
+			<td id="b2"></td>
+			<td id="b3"></td>
+		</tr>
+
+		<tr>
+			<td id="cactus"></td>
+			<td id="jack"></td>
+			<td id="c1"></td>
+			<td id="c2"></td>
+			<td id="c3"></td>
+		</tr>
+
+		<tr>
+			<td id="lot"></td>
+			<td id="moni"></td>
+			<td id="l1"></td>
+			<td id="l2"></td>
+			<td id="l3"></td>
+		</tr>
+
+	</table>
+
+	<button onclick="show()">Show table</button>
+	<button onclick="hide()">Hide table</button>
+
+
+<script type="text/javascript">
+
+	function show() {
+		
+	document.getElementById('first').innerHTML = "First name"
+	document.getElementById('last').innerHTML = "Last name"
+	document.getElementById('phone').innerHTML = "Phone number"
+	document.getElementById('email').innerHTML = "Email"
+	document.getElementById('age').innerHTML = "Age"
+
+	document.getElementById('ben').innerHTML = "Ben"
+	document.getElementById('ten').innerHTML = "Ten"
+	document.getElementById('b1').innerHTML = "101010"
+	document.getElementById('b2').innerHTML = "benten@gmail.com"
+	document.getElementById('b3').innerHTML = "10"
+
+	document.getElementById('cactus').innerHTML = "Cactus"
+	document.getElementById('jack').innerHTML = "Jack"
+	document.getElementById('c1').innerHTML = "77777"
+	document.getElementById('c2').innerHTML = "cj@gmail.com"
+	document.getElementById('c3').innerHTML = "7"
+
+	document.getElementById('lot').innerHTML = "Lot"
+	document.getElementById('moni').innerHTML = "Moni"
+	document.getElementById('l1').innerHTML = "123456"
+	document.getElementById('l2').innerHTML = "lotofmoni@gmail.com"
+	document.getElementById('l3').innerHTML = "11"
+	
+}
+
+
+function hide() {
+
+	document.getElementById('first').innerHTML = " "
+	document.getElementById('last').innerHTML = " "
+	document.getElementById('phone').innerHTML = " "
+	document.getElementById('email').innerHTML = " "
+	document.getElementById('age').innerHTML = " "
+
+	document.getElementById('ben').innerHTML = " "
+	document.getElementById('ten').innerHTML = "  "
+	document.getElementById('b1').innerHTML = " "
+	document.getElementById('b2').innerHTML = " "
+	document.getElementById('b3').innerHTML = " "
+
+	document.getElementById('cactus').innerHTML = " "
+	document.getElementById('jack').innerHTML = " "
+	document.getElementById('c1').innerHTML = " "
+	document.getElementById('c2').innerHTML = " "
+	document.getElementById('c3').innerHTML = " "
+
+	document.getElementById('lot').innerHTML = " "
+	document.getElementById('moni').innerHTML = " "
+	document.getElementById('l1').innerHTML = " "
+	document.getElementById('l2').innerHTML = " "
+	document.getElementById('l3').innerHTML = " "
+	
+}
+</script>
+
+<!-- <script type="text/javascript">
+	//history
+
+	function goback(){
+		history.back()
+	}
+
+	function goforward(){
+		history.forward()
+	}
+
+	function viewlength(){
+		history.length
+	}
+</script>
+
+<script type="text/javascript">
+	//date and time
+	var month =[
+	"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+	var d = new Date()
+	var m = (d.getMonth())
+	var da = (d.getDate())
+	var y = (d.getFullYear())
+	/*document.getElementById('date').innerHTML = d.toDateString()*/
+	document.getElementById('date').innerHTML = da + ' ' + month[m] + ' '+ y;
+</script>
+
+
+<script type="text/javascript">
+	//object literal method
+	var student = {
+		firstname:"Peter",
+		lastname: "Mark",
+		phone: "+234 908 7654",
+		email: "peter@gmail.com",
+		age: 15
+	}
+
+	//new
+</script> -->
+</body>
+</html>
